@@ -1,4 +1,5 @@
 # Ikoka Pro Meshtastic Device
+
 * Eurocard form factor
   * Half Eurocard - 100 mm × 80mm
   * All I/O in front
@@ -6,3 +7,20 @@
 * EBYTE E22 LoRa module (22/30/33 dBm)
 * Quectel L76K GPS
 * Up to 1.5A solar/DC charging
+
+
+## PCB Renders
+
+### PCB Top
+
+![top](https://ndoo.github.io/ikoka-pro-meshtastic-device/top.png)
+
+### PCB Bottom
+
+![bottom](https://ndoo.github.io/ikoka-pro-meshtastic-device/bottom.png)
+
+### Rotating GIF
+
+![animation](https://ndoo.github.io/ikoka-pro-meshtastic-device/rotating.gif)
+
+(Rendered with [kicad-render](https://github.com/linalinn/kicad-render).)
