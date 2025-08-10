@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "E22-900M30S")(type "KiCad")(uri "${KIPRJMOD}/symbols/E22-900M30S.kicad_sym")(options "")(descr ""))
+  (lib (name "DBP.915.V.A.30")(type "KiCad")(uri "${KIPRJMOD}/symbols/DBP.915.V.A.30.kicad_sym")(options "")(descr ""))
+)

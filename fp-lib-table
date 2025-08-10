@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "E22-900M30S")(type "KiCad")(uri "${KIPRJMOD}/footprints/E22-900M30S.pretty")(options "")(descr ""))
+  (lib (name "DBP")(type "KiCad")(uri "${KIPRJMOD}/footprints/DBP.pretty")(options "")(descr ""))
+)
