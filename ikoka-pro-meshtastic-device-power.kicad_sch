@@ -1503,6 +1503,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Polyfuse"
 			(pin_numbers
 				(hide yes)
@@ -2449,6 +2632,12 @@
 		(uuid "e5125800-3305-42fd-8bde-0e844baeb289")
 	)
 	(junction
+		(at 30.48 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7c06649-4c25-4e71-bd57-872375b576a4")
+	)
+	(junction
 		(at 72.39 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2477,6 +2666,16 @@
 			(type default)
 		)
 		(uuid "028c2c2c-8ebe-41a7-842d-8e74d4556815")
+	)
+	(wire
+		(pts
+			(xy 27.94 83.82) (xy 30.48 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02bf22e7-19e5-4b10-9704-7630e10afd64")
 	)
 	(wire
 		(pts
@@ -2540,6 +2739,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 81.28) (xy 30.48 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "128e72a4-f8eb-439f-81c1-4b2a412d9985")
+	)
+	(wire
+		(pts
 			(xy 74.93 90.17) (xy 50.8 90.17)
 		)
 		(stroke
@@ -2587,6 +2796,16 @@
 			(type default)
 		)
 		(uuid "187e9c0e-392c-49ab-bc0c-86a591c88f96")
+	)
+	(wire
+		(pts
+			(xy 40.64 71.12) (xy 40.64 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18c6d9c6-fd99-4b5b-b2be-a9407b2973e4")
 	)
 	(wire
 		(pts
@@ -2750,6 +2969,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 83.82) (xy 40.64 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "435f06bb-bba0-4389-b269-06317f04f9d8")
+	)
+	(wire
+		(pts
 			(xy 242.57 83.82) (xy 242.57 90.17)
 		)
 		(stroke
@@ -2797,6 +3026,16 @@
 			(type default)
 		)
 		(uuid "54f933e7-013e-450e-ba4c-db85461981d2")
+	)
+	(wire
+		(pts
+			(xy 30.48 83.82) (xy 40.64 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56ba1d4e-fd1d-4fb6-841d-5509f89ae75c")
 	)
 	(wire
 		(pts
@@ -3250,6 +3489,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 60.96) (xy 30.48 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b68c277e-07c1-42f3-8322-2b1e92e5cf0f")
+	)
+	(wire
+		(pts
 			(xy 73.66 92.71) (xy 66.04 92.71)
 		)
 		(stroke
@@ -3437,6 +3686,16 @@
 			(type default)
 		)
 		(uuid "d6f9c686-49f7-403c-a5d1-18ee16b52f85")
+	)
+	(wire
+		(pts
+			(xy 40.64 60.96) (xy 40.64 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d99abfd5-39ad-4e77-bd46-5ce41d782402")
 	)
 	(wire
 		(pts
@@ -3630,6 +3889,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 71.12) (xy 30.48 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f65d8795-fbcf-46c4-ad29-f01dd03dabbd")
+	)
+	(wire
+		(pts
 			(xy 233.68 62.23) (xy 233.68 66.04)
 		)
 		(stroke
@@ -3668,6 +3937,49 @@
 		)
 		(uuid "28db0404-388e-462e-a6a2-01065023abab")
 	)
+	(label "CHG_LED"
+		(at 40.64 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2e02d7b8-bcaf-498f-b546-ae2683ddc156")
+	)
+	(label "PGOOD_LED"
+		(at 30.48 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c6e91228-45f1-4847-b0f2-037e09f11969")
+	)
+	(global_label "V_{SYS}"
+		(shape input)
+		(at 27.94 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right)
+		)
+		(uuid "0c2a85e1-8271-4771-8d03-bc3041ff1dfa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.0093 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "V_{LORA}"
 		(shape output)
 		(at 245.11 62.23 0)
@@ -3681,6 +3993,29 @@
 		(uuid "14a2037f-90be-4b86-bf17-a87a9e938843")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 253.0084 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{CHG}"
+		(shape input)
+		(at 40.64 60.96 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "1ff95524-1245-4334-b64b-b45ebfd041a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 54.1043 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3773,6 +4108,29 @@
 		(uuid "7d4e2a3e-a2d7-4c1c-b7fd-7a1c42349c74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 132.6607 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{PGOOD}"
+		(shape input)
+		(at 30.48 60.96 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "948db208-d417-4465-9f97-7ddc1960f233")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.48 51.5038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4081,7 +4439,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C59461"
+		(property "LCSC" "C16780"
 			(at 252.73 76.2 0)
 			(show_name yes)
 			(effects
@@ -4101,6 +4459,94 @@
 			(project "ikoka-pro-meshtastic-device"
 				(path "/a45de86b-e2a6-4c9d-9956-0e69fa758f57/1d411286-9473-480d-b0ff-776e4f581c1d"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 30.48 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "068a3a2a-7804-4efb-805a-0ebdbc08f9ce")
+		(property "Reference" "D3"
+			(at 33.02 74.6124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 33.02 77.1524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 30.48 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 30.48 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 30.48 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2290"
+			(at 33.02 74.6124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcc14e2f-d114-4676-a4c9-3eae4ca953fe")
+		)
+		(pin "2"
+			(uuid "96b5060d-bab6-4ce1-924a-4272be0f0792")
+		)
+		(instances
+			(project "ikoka-pro-meshtastic-device"
+				(path "/a45de86b-e2a6-4c9d-9956-0e69fa758f57/1d411286-9473-480d-b0ff-776e4f581c1d"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4227,7 +4673,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C42371545"
+		(property "LCSC" "C19077604"
 			(at 191.77 129.5399 0)
 			(effects
 				(font
@@ -4341,6 +4787,84 @@
 			(project "ikoka-pro-meshtastic-device"
 				(path "/a45de86b-e2a6-4c9d-9956-0e69fa758f57/1d411286-9473-480d-b0ff-776e4f581c1d"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 40.64 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "131b7d08-ee98-4617-ba05-076e6063bd4c")
+		(property "Reference" "R10"
+			(at 43.18 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.2k"
+			(at 43.18 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 38.862 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 40.64 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25862"
+			(at 43.18 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f13f6ea-b9dc-4d16-9cc2-b90fd9292aee")
+		)
+		(pin "2"
+			(uuid "be8919bb-cf5b-4242-909c-164f2e764dc0")
+		)
+		(instances
+			(project "ikoka-pro-meshtastic-device"
+				(path "/a45de86b-e2a6-4c9d-9956-0e69fa758f57/1d411286-9473-480d-b0ff-776e4f581c1d"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4470,6 +4994,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 58.42 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4109"
+			(at 60.96 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4744,6 +5277,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25774"
+			(at 185.42 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d01bb060-1084-4115-9e24-c12dbbeabc5e")
 		)
@@ -4822,7 +5364,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22843"
+		(property "LCSC" "C25783"
 			(at 231.14 83.82 0)
 			(show_name yes)
 			(effects
@@ -4894,6 +5436,15 @@
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
 			(at 182.88 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42369221"
+			(at 182.88 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5029,6 +5580,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 43.18 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4109"
+			(at 45.72 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5180,7 +5740,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C59461"
+		(property "LCSC" "C23733"
 			(at 133.35 95.25 0)
 			(show_name yes)
 			(effects
@@ -5268,7 +5828,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C59461"
+		(property "LCSC" "C16780"
 			(at 243.84 66.04 0)
 			(show_name yes)
 			(effects
@@ -5288,6 +5848,94 @@
 			(project "ikoka-pro-meshtastic-device"
 				(path "/a45de86b-e2a6-4c9d-9956-0e69fa758f57/1d411286-9473-480d-b0ff-776e4f581c1d"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 40.64 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ac68d27-4708-4dc7-aeea-235d15ad9874")
+		(property "Reference" "D4"
+			(at 43.18 74.6124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 43.18 77.1524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 40.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 40.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 40.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2290"
+			(at 43.18 74.6124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6273fac-a39b-4cd6-b990-5fcdd6b92278")
+		)
+		(pin "2"
+			(uuid "a361fce2-7333-4eb9-82c1-8afe61d8fb23")
+		)
+		(instances
+			(project "ikoka-pro-meshtastic-device"
+				(path "/a45de86b-e2a6-4c9d-9956-0e69fa758f57/1d411286-9473-480d-b0ff-776e4f581c1d"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5668,6 +6316,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C4109"
+			(at 53.34 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c3288a2c-b29e-4269-b0e0-12fca8395b22")
 		)
@@ -5812,7 +6469,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22790"
+		(property "LCSC" "C25774"
 			(at 231.14 69.85 0)
 			(show_name yes)
 			(effects
@@ -5884,6 +6541,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 73.66 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25867"
+			(at 76.2 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5969,7 +6635,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C59461"
+		(property "LCSC" "C23733"
 			(at 123.19 95.25 0)
 			(show_name yes)
 			(effects
@@ -6058,7 +6724,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C59461"
+		(property "LCSC" "C52923"
 			(at 62.23 67.31 0)
 			(show_name yes)
 			(effects
@@ -6130,6 +6796,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 35.56 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25867"
+			(at 38.1 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6407,6 +7082,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C59461"
+			(at 176.53 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "42fc3b84-29b8-4431-9a25-0298d9878640")
 		)
@@ -6632,6 +7316,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 105.41 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "39cdba96-52e3-4219-adb4-394576972881")
 		)
@@ -6694,6 +7387,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 66.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4109"
+			(at 68.58 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6787,6 +7489,84 @@
 			(project "ikoka-pro-meshtastic-device"
 				(path "/a45de86b-e2a6-4c9d-9956-0e69fa758f57/1d411286-9473-480d-b0ff-776e4f581c1d"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 30.48 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e69f36d7-ced1-43f6-b75d-1a03518839c2")
+		(property "Reference" "R9"
+			(at 33.02 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.2k"
+			(at 33.02 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 28.702 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 30.48 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25862"
+			(at 33.02 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "275a2208-a444-4537-a348-8cbe5da8834e")
+		)
+		(pin "2"
+			(uuid "11e11376-c2e1-4004-95f7-af7e8ef751cd")
+		)
+		(instances
+			(project "ikoka-pro-meshtastic-device"
+				(path "/a45de86b-e2a6-4c9d-9956-0e69fa758f57/1d411286-9473-480d-b0ff-776e4f581c1d"
+					(reference "R9")
 					(unit 1)
 				)
 			)

@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.8,
-          "width": 1.8
+          "drill": 1.4,
+          "height": 2.3,
+          "width": 2.3
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.16
+          "min_clearance": 0.11
         }
       },
       "diff_pair_dimensions": [
@@ -60,19 +60,11 @@
       ],
       "drc_exclusions": [
         [
-          "silk_over_copper|115500000|137951973|be925ae7-71ae-46f8-88bb-3742a1609585|00000000-0000-0000-0000-000000000000",
+          "courtyards_overlap|183045000|127495000|57a2dad4-d331-4c23-b944-519b86004f4c|f46fe7c5-a41f-46e8-b50f-3aa19c26403f",
           ""
         ],
         [
-          "silk_over_copper|122869844|122500000|99180351-776c-46fa-aab9-df0f698a1154|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|182090000|59826400|7fa125cc-1e6b-4ffa-83c0-9562395399e3|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|182090000|80173600|e3f9dfc6-b8d8-4384-ad2c-0625c68cdd8e|00000000-0000-0000-0000-000000000000",
+          "courtyards_overlap|183795000|129040273|95c4a2e0-83dc-4829-b457-b1c67daab0bc|f46fe7c5-a41f-46e8-b50f-3aa19c26403f",
           ""
         ]
       ],
@@ -118,7 +110,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "ignore",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -481,7 +473,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "eurocard-e22-meshtastic-node.kicad_pro",
+    "filename": "ikoka-pro-meshtastic-device.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -627,6 +619,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
