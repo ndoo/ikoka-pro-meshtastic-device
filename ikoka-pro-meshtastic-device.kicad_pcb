@@ -1559,7 +1559,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17168"
+		(property "LCSC" "C25900"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5399,7 +5399,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -5411,7 +5411,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -5419,6 +5419,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C19189893"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f24d963-29f9-4a55-adba-de93e288d07d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6769,7 +6782,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.torexsemi.com/file/xc6206/XC6206.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -6781,7 +6794,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -6789,6 +6802,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5446"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98852001-dc8c-4ab7-b4a5-766ac4b5fec9")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7065,7 +7091,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.torexsemi.com/file/xc6206/XC6206.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -7077,7 +7103,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -7085,6 +7111,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5446"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d7d3e40-392d-4b5e-970b-67997a4a9822")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -20248,7 +20287,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17168"
+		(property "LCSC" "C25900"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
