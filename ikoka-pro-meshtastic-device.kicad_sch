@@ -6719,28 +6719,6 @@
 			)
 		)
 	)
-	(global_label "GPS_TX"
-		(shape input)
-		(at 181.61 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1c739851-5156-488d-b380-16e7d1078afe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.7306 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BATTERY_PIN"
 		(shape output)
 		(at 54.61 161.29 0)
@@ -7196,28 +7174,6 @@
 		(uuid "7b471303-dc4d-4f36-8101-3dce62ebfd80")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 141.6738 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPS_RX"
-		(shape output)
-		(at 181.61 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "85542159-4640-4af7-9f54-1ad5a7350a70")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.4282 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7693,6 +7649,28 @@
 			)
 		)
 	)
+	(global_label "GPS_RX"
+		(shape output)
+		(at 181.61 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e875e6b7-cf8e-4bcf-afe6-70d66d7d7612")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.4282 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "V_{DD}_NRF"
 		(shape input)
 		(at 34.29 148.59 90)
@@ -7712,6 +7690,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPS_TX"
+		(shape input)
+		(at 181.61 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ebc8c4db-1729-432c-b329-36896911363f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.7306 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
