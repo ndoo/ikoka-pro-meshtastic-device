@@ -6050,7 +6050,7 @@
 				)
 			)
 		)
-		(property "Value" "510"
+		(property "Value" "5.1k"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "045344af-a28d-4800-bbe7-342bec9eef4a")
@@ -6085,7 +6085,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25123"
+		(property "LCSC" "C25905"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -8440,7 +8440,7 @@
 				)
 			)
 		)
-		(property "Value" "510"
+		(property "Value" "5.1k"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "f2d85e0d-e6be-409f-bbcf-7c04b59ad1b0")
@@ -8475,7 +8475,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25123"
+		(property "LCSC" "C25905"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
