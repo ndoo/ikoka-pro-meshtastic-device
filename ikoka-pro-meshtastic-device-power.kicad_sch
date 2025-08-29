@@ -5551,7 +5551,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "3.3k"
 			(at 45.72 97.7899 0)
 			(effects
 				(font
@@ -5587,7 +5587,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C4109"
+		(property "LCSC" "C25890"
 			(at 45.72 95.2499 0)
 			(effects
 				(font
@@ -6280,7 +6280,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "3.3k"
 			(at 53.34 97.7899 0)
 			(effects
 				(font
@@ -6316,7 +6316,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C4109"
+		(property "LCSC" "C25890"
 			(at 53.34 95.2499 0)
 			(effects
 				(font
@@ -6756,7 +6756,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "a7b69e9f-26d9-41a2-8374-f8ea56bbb3e0")
 		(property "Reference" "R18"
 			(at 38.1 95.2499 0)
@@ -6767,7 +6767,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.43k"
+		(property "Value" "3.3k"
 			(at 38.1 97.7899 0)
 			(effects
 				(font
@@ -6803,7 +6803,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25867"
+		(property "LCSC" "C25890"
 			(at 38.1 95.2499 0)
 			(effects
 				(font
